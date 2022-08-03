@@ -4,7 +4,7 @@ from celery.utils.log import get_task_logger
 
 from core import app
 from deal.utils.cbr_exchange_rate import get_actual_valuta_rate
-from deal.utils.delivey_time import init_bot
+from deal.utils.delivey_time_bot import init_bot
 from deal.utils.google_sheets import get_data_from_google_sheet
 
 logger = get_task_logger(__name__)

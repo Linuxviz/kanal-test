@@ -4,8 +4,6 @@ import xml.etree.ElementTree as ET
 
 from django.core.cache import cache
 
-from deal.models import ValutaRate
-
 CRB_USA_ID = 'R01235'
 
 
