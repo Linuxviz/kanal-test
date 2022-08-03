@@ -1,0 +1,7 @@
+../.idea
+.idea
+kanal/.env
+kanal/db.sqlite3
+kanal/celerybeat-schedule
+kanal/data
+*__pycache__
