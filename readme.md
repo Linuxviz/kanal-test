@@ -18,13 +18,15 @@ CeleryBeat - запуск переодической задачи полчени
 Инструкция по запуску:
 Склонировать приложение:
 
-    git clone https://github.com/Linuxviz/kanal-test/tree/master/kanal
-Перейти в директорию /kanal
+    git clone https://github.com/Linuxviz/kanal-test.git
+Перейти в директорию /kanal если вы не в ней
+
     cd /kanal
-tgtg
+Соберите приложение
 
     2) docker-compose build
-yhyh
+
+Запустите контейнеры
 
     3) docker-compose up
 
