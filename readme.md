@@ -15,11 +15,19 @@ CeleryBeat - запуск переодической задачи полчени
 * Docker - все приложения находятся в докере кроме реакта,
 он выполнен как одно из приложений джанги.
 
-Инструкция по запуску: 
+Инструкция по запуску:
+Склонировать приложение:
 
-    1) Перейти в директорию /kanal
+    git clone https://github.com/Linuxviz/kanal-test/tree/master/kanal
+Перейти в директорию /kanal
+    cd /kanal
+tgtg
+
     2) docker-compose build
+yhyh
+
     3) docker-compose up
+
 
 [Чат бот](https://t.me/Testkanal44bot) запускается в отдельной задаче celery
 и не блокирует работу сервера. Имеет две команды
