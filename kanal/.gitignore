@@ -1,0 +1,6 @@
+../.idea
+.env
+db.sqlite3
+celerybeat-schedule
+/data
+*__pycache__
